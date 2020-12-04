@@ -130,4 +130,4 @@ Expected: the above line should print a message saying such a student with this 
 ; gfsergfh; , ]
 
 # A note on naming conventions
-I chose to use my own since there was no explicit requirement, only implicit usage. I made sure it was okay.
+I chose to use my own since there was no explicit requirement, only implicit usage. I made sure it was allowed.
