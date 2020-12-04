@@ -1,3 +1,10 @@
+# None of the below templates included the actual binaries Visual Studio
+# created.
+
+*.sln
+*.vcxproj
+*.filters
+
 # # # # https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
 
 .vscode/*
