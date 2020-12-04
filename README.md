@@ -80,9 +80,9 @@ Each subclass should override the getDegreeProgram() function.Each subclass shou
 
 ### 2. Create a student object for each  student in the data table by using the subclasses NetworkStudent, SecurityStudent, and SoftwareStudent, and populate classRosterArray.
 
-a.Apply pointer operations when parsing each  set of data identified in the studentData table.
+a. Apply pointer operations when parsing each  set of data identified in the studentData table.
 
-b.Add each student object to classRosterArray.
+b. Add each student object to classRosterArray.
 
 ### 3. Define the following functions :
 
