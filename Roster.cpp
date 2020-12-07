@@ -1,4 +1,5 @@
 /*
+Test comment on test-branch
 "E.Create a Roster class (roster.cpp) by doing the following :
 
 1.  Create an array of pointers, classRosterArray, to hold the data provided in the studentData table.
@@ -18,7 +19,7 @@ b.  public void remove(string studentID) that removes students from the roster b
 
 c.  public void printAll() that prints a complete tab - separated list of student data using accessor functions with the provided format : 1[tab] First Name : John[tab] Last Name : Smith[tab] Age : 20[tab]daysInCourse : {35, 40, 55} Degree Program : Security.The printAll() function should loop through all  the students in classRosterArrayand call the print() function for each student.
 
-d.  public void printDaysInCourse(string studentID) that correctly prints a student’s average number of days in the three courses.The student is identified by the studentID parameter.
+d.  public void printDaysInCourse(string studentID) that correctly prints a studentï¿½s average number of days in the three courses.The student is identified by the studentID parameter.
 
 e.  public void printInvalidEmails() that verifies student email addressesand displays all invalid email addresses to the user
 
@@ -29,7 +30,7 @@ Note : A valid email should include an at sign('@') and period('.') and should n
 	f.  public void printByDegreeProgram(int degreeProgram) that prints out student information for a degree program specified by an enumerated type
 
 
-	F.Demonstrate the program’s required functionality by adding a void main() function to roster.cpp, which will contain the required function calls to achieve the following results :
+	F.Demonstrate the programï¿½s required functionality by adding a void main() function to roster.cpp, which will contain the required function calls to achieve the following results :
 
 1.  Print out to the screen, via your application, the course title, the programming language used, your student ID, and your name.
 
@@ -514,7 +515,7 @@ void Roster::Remove(const std::string& sId) {
 	//Passing true requires user to press enter to continue after the end of the
 	//list, using EndList().
 	//"Prints a complete tab-separated list of student data using accessor functions with the provided format :
-	//"1[tab] First Name : John[tab] Last Name : Smith[tab] Age : 20[tab]daysInCourse : {35, 40, 55} Degree Program : Security.The printAll()function should loop through all  the students in classRosterArray and call the print() function for each student."
+	//"1[tab] First Name : John[tab] Last Name : Smith[tab] Age : 20[tab]daysInCourse : {35, 40, 55} Degree Program : Security.Theï¿½printAll()function should loop throughï¿½allï¿½ the students inï¿½classRosterArrayï¿½and call theï¿½print()ï¿½function forï¿½eachï¿½student."
 		//(Missing tab separator ignored.)
 void Roster::PrintAll(bool holdWindow) {
 
@@ -550,7 +551,7 @@ void Roster::PrintAllAvDays(bool holdWindow) {
 	EndList(holdWindow);
 }
 
-//"Correctly prints a student’s average number of days in the three courses.
+//"Correctly prints a studentï¿½s average number of days in the three courses.
 //"The student is identified by the studentID parameter."
 void Roster::PrintAvDaysInCourse(const std::string& sId) {
 	//Find student.
@@ -787,17 +788,17 @@ A.Modify the studentData table to include your personal information as the last 
 
 B.Create a C++ project in your integrated development environment(IDE) with the following files :
 
-•   degree.h
+ï¿½   degree.h
 
-•   student.h and student.cpp
+ï¿½   student.h and student.cpp
 
-•   networkStudent.h and networkStudent.cpp
+ï¿½   networkStudent.h and networkStudent.cpp
 
-•   securityStudent.h and securityStudent.cpp
+ï¿½   securityStudent.h and securityStudent.cpp
 
-•   softwareStudent.h and softwareStudent.cpp
+ï¿½   softwareStudent.h and softwareStudent.cpp
 
-•   roster.h and roster.cpp
+ï¿½   roster.h and roster.cpp
 
 
 Note : There must be a total of 11 source code files.
@@ -813,19 +814,19 @@ Note : There must be a total of 11 source code files.
 
 1.  Create the base class Student in the files student.h and student.cpp, which includes each  of the following variables :
 
-•   student ID
+ï¿½   student ID
 
-•   first name
+ï¿½   first name
 
-•   last name
+ï¿½   last name
 
-•   email address
+ï¿½   email address
 
-•   age
+ï¿½   age
 
-•   array of number of days to complete each course
+ï¿½   array of number of days to complete each course
 
-•   degree types
+ï¿½   degree types
 
 
 Note : Degree type should be populated in subclasses only.
@@ -855,11 +856,11 @@ Note : Degree type should be populated in subclasses only.
 
 	3.  Create the three following classes as subclasses of Student, using the files created in part B :
 
-•   SecurityStudent
+ï¿½   SecurityStudent
 
-•   NetworkStudent
+ï¿½   NetworkStudent
 
-•   SoftwareStudent
+ï¿½   SoftwareStudent
 
 Each subclass should override the getDegreeProgram() function.Each subclass should have a data member to hold the enumerated type for the degree program using the types defined in part C.
 
@@ -883,7 +884,7 @@ b.  public void remove(string studentID) that removes students from the roster b
 
 c.  public void printAll() that prints a complete tab - separated list of student data using accessor functions with the provided format : 1[tab] First Name : John[tab] Last Name : Smith[tab] Age : 20[tab]daysInCourse : {35, 40, 55} Degree Program : Security.The printAll() function should loop through all  the students in classRosterArrayand call the print() function for each student.
 
-d.  public void printDaysInCourse(string studentID) that correctly prints a student’s average number of days in the three courses.The student is identified by the studentID parameter.
+d.  public void printDaysInCourse(string studentID) that correctly prints a studentï¿½s average number of days in the three courses.The student is identified by the studentID parameter.
 
 e.  public void printInvalidEmails() that verifies student email addressesand displays all invalid email addresses to the user
 
@@ -894,7 +895,7 @@ Note : A valid email should include an at sign('@') and period('.') and should n
 	f.  public void printByDegreeProgram(int degreeProgram) that prints out student information for a degree program specified by an enumerated type
 
 
-	F.Demonstrate the program’s required functionality by adding a void main() function to roster.cpp, which will contain the required function calls to achieve the following results :
+	F.Demonstrate the programï¿½s required functionality by adding a void main() function to roster.cpp, which will contain the required function calls to achieve the following results :
 
 1.  Print out to the screen, via your application, the course title, the programming language used, your student ID, and your name.
 
